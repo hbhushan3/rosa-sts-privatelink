@@ -15,8 +15,8 @@ variable "multi_az" {
   description = "Setup a multi-AZ VPC for the cluster"
 }
 
-variable "create_elb_iam_role" {
-  type        = bool
-  default     = true
-  description = "Create the elasticloadbalancing IAM service-linked role"
-}
+#variable "create_elb_iam_role" {
+ # type        = bool
+  #default     = true
+  #description = "Create the elasticloadbalancing IAM service-linked role"
+#}
